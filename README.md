@@ -119,9 +119,9 @@ func Mercado() throws{
 var moedas = 0
 
 
-
+# Executar a função
 do {
-    try Mercado() // Fazer a função rodar
+    try Mercado() 
 }
 catch InventarioErros.saldoInsuficiente { // Exibir a mensagem de erro
     print("Saldo insuficiente")
